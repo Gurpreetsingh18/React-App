@@ -1,0 +1,44 @@
+h1{
+    color: blue;
+}
+
+.header{
+    background-color : green;
+    display:flex;
+    justify-content:space-between;
+
+}
+
+
+body{
+    background-color:#6ca09da1;
+}
+
+a:link{
+    color:red;   
+}
+
+a:visited{
+   color:blue;
+}
+
+.item{
+    position:relative;
+
+}
+
+.item h4{
+    position:absolute;
+    top:50%;
+    right:20%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+.item:hover h4{
+    opacity:1;
+}
+
+.item:hover img{
+    opacity:0.33;
+}
